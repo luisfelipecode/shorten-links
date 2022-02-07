@@ -6,7 +6,9 @@
 
 body {
 	font-family: sans-serif;
-	background: #132742;
+
+	/* background: #132742; */
+	background: linear-gradient(to left, #132742, #351668);
 }
 
 button {

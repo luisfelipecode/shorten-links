@@ -6,7 +6,7 @@ import './menu.css';
 export default function Menu() {
 	return (
 		<div className="menu">
-			<a className="social" href="https://www.youtube.com/c/Sujeitoprogramador">
+			<a className="social" href="/">
 				<BsYoutube color="#fff" size={24} />
 			</a>
 			<a
@@ -15,10 +15,7 @@ export default function Menu() {
 			>
 				<BsInstagram color="#fff" size={24} />
 			</a>
-			<a
-				className="social"
-				href="https://www.instagram.com/luisfelype02/?hl=pt-br"
-			>
+			<a className="social" href="/">
 				<BsTelegram color="#fff" size={24} />
 			</a>
 			<Link className="menu-item" to="links">
